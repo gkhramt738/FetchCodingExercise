@@ -13,7 +13,7 @@ The submitted code includes comprehensive comments in addition to citations for 
 **Useful information for running this app successfully:**
   1. An active internet connection is required for this app to function properly and display the desired result.
   2. Configuration caches are designed to significantly improve build performance by "caching the result of the configuration phase and reusing this for subsequent builds".  If this cache configuration fails during project build and prevents you from launching the app follow the steps below.
-    a. Open the **gradle.properties** file.
-    b. At the very bottom of the file, at line 21, update "org.gradle.configuration-cache=true" to "org.gradle.configuration-cache=**false**", or delete this line.
-    c. Clean the project by accessing **Build --> Clean Project**, then Rebuild the project by accessing **Build --> Rebuild**.
+  3. Open the **gradle.properties** file.
+  4. At the very bottom of the file, at line 21, update "org.gradle.configuration-cache=true" to "org.gradle.configuration-cache=**false**", or delete this line.
+  5. Clean the project by accessing **Build --> Clean Project**, then Rebuild the project by accessing **Build --> Rebuild**.
       * Sources: https://docs.gradle.org/current/userguide/configuration_cache.html, https://stackoverflow.com/questions/71793217/gradle-configuration-cache-state-could-not-be-cached
