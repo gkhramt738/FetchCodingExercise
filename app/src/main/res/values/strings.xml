@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name"><b>Fetch Coding Exercise</b></string>
+<!--    <string name="name_for_app">The name of the app for which this exercise is for.</string>-->
+    <string name="background_image">The starting background image for the coding exercise.</string>
+
+    <string name="connection_success">Connection successful!</string>
+    <string name="connection_failure">Connection Unsuccessful. Please check your internet connection.</string>
+    <string name="listId">listId</string>
+    <string name="name">name</string>
+    <string name="id">id</string>
+</resources>
